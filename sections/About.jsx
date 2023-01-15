@@ -8,7 +8,7 @@ import { fadeIn, staggerContainer } from '../utils/motion';
 
 const About = () => (
   <section>
-    About section
+    this section 
   </section>
 );
 
