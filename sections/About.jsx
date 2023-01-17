@@ -21,14 +21,15 @@ const About = () => (
         className = "mt-[8px] font-normal sm:text-[32px] text-[20px] text-center text-secondary-white"
         
       >
-      <span className="font-extrabold text-white">Blockchain</span>
-      is a decentralized digital ledger that records transactions across a network of computers. It is the underlying technology behind cryptocurrencies like Bitcoin and Ethereum, but it has potential uses beyond just digital currencies. Each block in a blockchain contains a list of transactions, and once a block is added to the chain it cannot be altered. This creates a tamper-proof record of all transactions that is maintained by a network of computers, rather than a central authority. The distributed nature of blockchain technology also allows for increased security and transparency. The technology is still in its early stages and its potential use cases are being explored in various industries such as finance, supply chain, and healthcare.
+      <span className="font-extrabold text-white">Blockchain </span>
+       is a decentralized digital ledger that records transactions across a network of computers. It is the underlying technology behind cryptocurrencies like Bitcoin and Ethereum, but it has potential uses beyond just digital currencies. Each block in a blockchain contains a list of transactions, and once a block is added to the chain it cannot be altered. This creates a tamper-proof record of all transactions that is maintained by a network of computers, rather than a central authority. The distributed nature of blockchain technology also allows for increased security and transparency. The technology is still in its early stages and its potential use cases are being explored in various industries such as finance, supply chain, and healthcare.
       </motion.p>
       <motion.img
         variants={fadeIn('up','tween', 0.3, 1)}
-      >
-
-      </motion.img>
+        src="/arrow-down.svg"
+        alt="arrow down"
+        className="w-[18px] h-[28px] object-contain mt-[28px]"
+      />
     </motion.div>
   </section>
 );
