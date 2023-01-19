@@ -20,7 +20,7 @@ const Page = () => (
     <div className="relative">
     <World />
     <Insights />
-    <div className="gradient-04 z-0"></div>
+    <div className="gradient-05 z-0"></div>
     <Feedback />
     <Footer />
     </div>
