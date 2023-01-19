@@ -17,10 +17,13 @@ const Page = () => (
       <WhatsNew />
     </div>
 
+    <div className="relative">
     <World />
     <Insights />
+    <div className="gradient-04 z-0"></div>
     <Feedback />
     <Footer />
+    </div>
   </div>
 );
 
