@@ -6,8 +6,8 @@ import styles from '../styles';
 
 
 import { ExploreCard,TypingText,TitleText } from '../components';
-import { staggerContainer } from '../utils/motion';
-import { exploreWorlds } from '../constants'
+import { staggerContainer,} from '../utils/motion';
+import { exploreWorlds} from '../constants'
 
 const Explore = () => {
   useState
@@ -28,7 +28,7 @@ const Explore = () => {
             {...world}
             index={index}
             active={active}
-            hand
+            hand 
           />
         ))}
       </div>
