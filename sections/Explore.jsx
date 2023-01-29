@@ -4,10 +4,9 @@ import { useState } from 'react';
 import { motion } from 'framer-motion';
 import styles from '../styles';
 
-
-import { ExploreCard,TypingText,TitleText } from '../components';
+import { ExploreCard, TypingText, TitleText } from '../components';
 import { staggerContainer,} from '../utils/motion';
-import { exploreWorlds} from '../constants'
+import { exploreWorlds} from '../constants';
 
 const Explore = () => {
   useState
@@ -27,8 +26,6 @@ const Explore = () => {
           <ExploreCard key={world.id}
             {...world}
             index={index}
-            active={active}
-            hand 
           />
         ))}
       </div>
